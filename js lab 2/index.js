@@ -54,3 +54,20 @@ else {
     console.log("not pallindrome");
 } 
 
+//write a js program that takes an integer as in put and checks whether it is a positive,negative number or zero.
+
+let num=+prompt("enter a value");
+num==0?console.log("you entered zero") : num<0 ? console.log("you entered a positive number"):num>0?console.log("you entered a positive number"):console.log("invalid input");
+
+/* Develop a program for an online bus ticket booking platform called "Bus Ticket Booker."
+------  The platform offers tickets for a fixed price of Rs. 300 per seat. However, there are discounts available for senior citizens.
+        If a passenger's age is between 60 and 100 , they will receive a 20% discount on the total booking cost. Using ternary operator
+*/
+
+let t=+prompt("enter number of tickets");
+let age=+prompt("enter age of passanger");
+let price=300;
+let totalprice=price*t;
+let discount= totalprice*(20/100);
+let finalprice=totalprice-discount;
+(age>=60&&age<=100) ? console.log(`total cost before discount:${totalprice.toFixed(2)}\n discount amount:${discount.toFixed(2)}\n total cost after discount:${finalprice.toFixed(2)}`) : console.log(`total cost before discount:${totalprice.toFixed(2)}\n discount amount:0.00\n total cost after discount:${totalprice.toFixed(2)}`);
