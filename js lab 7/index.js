@@ -60,17 +60,17 @@ console.log(sum);
 
 /*Write a 'JavaScript' program to sort the numbers array using selection sort technique without using predefined function.*/
 
-let arr=[45,3,25,78,12];
-for(let i=0;i<arr.length-1;i++){
-    for(let j=0;j<arr.length-1-i;j++){
-        if(arr[j]>arr[j+1]){
-            let temp=arr[j];
-            arr[j]=arr[j+1];
-            arr[j+1]=temp
+let arr1=[45,3,25,78,12];
+for(let i=0;i<arr1.length-1;i++){
+    for(let j=0;j<arr1.length-1-i;j++){
+        if(arr1[j]>arr1[j+1]){
+            let temp=arr1[j];
+            arr1[j]=arr1[j+1];
+            arr1[j+1]=temp
         }
     }
 }
-console.log(`Ascending Order: [${arr}]`);
+console.log(`Ascending Order: [${arr1}]`);
 
 let arr2=[45,3,25,78,12];
 for(let i=0;i<arr2.length-1;i++){

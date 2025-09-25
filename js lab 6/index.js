@@ -18,7 +18,7 @@ function checkPasswordStrength(a,b){
 let pass=prompt("enter a password");
 
 let value=checkPasswordStrength(pass,8);
-console.log(value);*/
+console.log(value);
 
 /*Character Type Analyzer (Word Contains Vowel & Consonant)
 --------
@@ -47,7 +47,7 @@ function analyzeVowelAndConsonant(a){
     }
 }
 let word=prompt("enter a word");
-let value=analyzeVowelAndConsonant(word);*/
+let values=analyzeVowelAndConsonant(word);
 
 /*Create a function expression that reverses a given string. For example, "hello" becomes "olleh".*/
 
@@ -58,13 +58,13 @@ let string=function(a){
     }
     return reversedString;
 }
-let word=prompt("enter a word");
-console.log(string(word));
+let words=prompt("enter a word");
+console.log(string(words));
 
 /*Simple Username Case Converter    (Arrow Function)--------
     - Create an arrow function that takes a username string and returns it converted to all lowercase for standardization.*/
 let string1=(a)=> {
    return a.toLowerCase();
 }
-let string=prompt("enter a string");
-console.log(string1(string));
+let strings=prompt("enter a string");
+console.log(string1(strings));
