@@ -1,6 +1,6 @@
 /*let r=+prompt("enter radius"); // use +prompt to convert a string to number
 const pi=3.14;
-console.log("area of circle" + (pi*r*r));*/
+console.log("area of circle" + (pi*r*r));
 
 let n=25.4168;
 console.log(typeof n);
@@ -28,8 +28,30 @@ console.log(str.split('a'));
 console.log(str.split('a').length-1); // this gives how many a's are there in javascript
 console.log(str.split('a').length-1 + str.split('e').length-1+ str.split('i').length-1 +str.split('o').length-1+str.split('u').length-1);// to find how many vowels are there in javascript
 console.log(str.length- (str.split(' ').length-1+str.split('a').length-1 + str.split('e').length-1+ str.split('i').length-1 +str.split('o').length-1+str.split('u').length-1)) // to find no of consonants in javascript
+*/
 
 
+// DOM Manipulation---------------------------
+
+let input=document.getElementById('inp');
+let h=document.getElementById('head');
+let p=document.getElementById('para');
+function fun(){
+    //alert(`your string is ${input.value}. Total num of characters are ${input.value.length}`);
+    
+    if(input.value%2==0){
+        p.textContent="even"
+        p.style.color="green";
+        p.style.fontSize="48px"
+       // h.style.backgroundColor="black";
+       // input.innerHTML="<img src="./g.png" alt="goo">"
+    }
+    else if(input.value%2!=0) {
+        p.textContent="odd"
+        p.style.color="red"
+        p.style.fontSize="48px"
+    }
+}
 
 
 

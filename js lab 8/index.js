@@ -24,11 +24,11 @@ console.log(z);
 /*Write a 'JavaScript' program Convert Names to Uppercase in array using predefined method.
 */
 let size=+prompt("enter size");
-let arr=[];
+let arr1=[];
 for(let i=0;i<size;i++){
-    arr[i]=prompt("enter "+i+" element")
+    arr1[i]=prompt("enter "+i+" element")
 }
-let a=arr.map((e,i)=> e=e.toUpperCase() )
+let a=arr1.map((e,i)=> e=e.toUpperCase() )
 console.log(a);
 
 /*Write a 'JavaScript' program to Calculate Average from an Array elements using the predefined method.
