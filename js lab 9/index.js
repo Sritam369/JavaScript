@@ -61,6 +61,7 @@ console.log(book.title,book.author.authorName,book.publicationYear,book.author.n
     Action: Delete emailNotifications.
     Expected Output: Object should be { darkMode: true, locale: "en-US" }.
 */
+
 let object={
     darkMode:true,
     emailNotification:true,

@@ -33,7 +33,7 @@ console.log(str.length- (str.split(' ').length-1+str.split('a').length-1 + str.s
 
 // DOM Manipulation---------------------------
 
-let input=document.getElementById('inp');
+/*let input=document.getElementById('inp');
 let h=document.getElementById('head');
 let p=document.getElementById('para');
 function fun(){
@@ -51,9 +51,31 @@ function fun(){
         p.style.color="red"
         p.style.fontSize="48px"
     }
+}*/
+
+// DOM Creation-------------------
+function addpara(){
+    let pa=document.createElement('p');
+    pa.textContent="hello";
+    document.getElementById('para').appendChild(pa)
 }
-
-
+function addimg(){
+  let image=document.createElement('img');
+  image.src="./g.png";
+  document.getElementById('image').appendChild(image);
+}
+let inputUrl=document.getElementById('url');
+let inputText=document.getElementById('name');
+let outputDiv=document.getElementById('output');
+function add(){
+    let divv=document.createElement('div');
+    let image=document.createElement('img');
+    image.src =inputUrl.value;
+    let para=document.createElement('p');
+    para.textContent=inputText.value;
+    divv.append(image,para);
+    outputDiv.appendChild(divv);
+}
 
 
 
