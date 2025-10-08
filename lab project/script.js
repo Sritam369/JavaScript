@@ -10,4 +10,5 @@ function fun2(){
 
 function fun3(){
   body.style.backgroundColor="chartreuse";
+  body.style.classList.toggle("hide");
 }

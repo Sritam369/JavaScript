@@ -29,7 +29,7 @@ once, and shows it again when clicked a second time.*/
 function fun3(){
     let img=document.getElementById("image");
     img.classList.toggle("hide")
-    // img.style.visibility="hidden";
+    
 }
 
 /*Listing Items by Class Name (document.getElementsByClassName(), for...of loop,

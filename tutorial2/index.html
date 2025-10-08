@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #form{
+            border:2px solid black;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height:300px;
+            width:300px;
+        }
+        body{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+            width:100vw;
+        }
+    </style>
+</head>
+<body>
+<img src="../js lab 10/img.jpeg" alt="" onmouseover="fun1()" id="img">
+<p id="para">Hello World</p>
+
+<form id="form">
+<input type="text" id="inp1" placeholder="enter name">
+<p id="p1"></p>
+<input type="email" id="inp2" placeholder="enter email">
+<p id="p2"></p>
+<input type="password" id="inp3" placeholder="enter password">
+<button onclick="fun1()">click</button>
+<p id="p3"></p>
+<button id="btn">submit</button>
+</form>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
