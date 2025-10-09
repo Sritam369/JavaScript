@@ -9,11 +9,16 @@ function fun1(){
 }
 
 function fun2(){
+ if(body.style.backgroundColor==="black"){
+    body.style.backgroundColor="white"
+  }else
   body.style.backgroundColor="black";
-  
 }
 
 function fun3(){
+ if(body.style.backgroundColor==="chartreuse"){
+    body.style.backgroundColor="white"
+  }else
   body.style.backgroundColor="chartreuse";
   
 }
