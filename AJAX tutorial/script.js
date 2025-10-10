@@ -51,11 +51,13 @@ btn3.addEventListener('click',function(){
       s2.textContent=second 
        if(second==0 && minute==0){
             clearInterval(stopwatch)
+              second=60;
+              minute=6  
         }
       if(second==0){
         second=60;
-        s1.textContent=minute--
-        
+        minute--
+        s1.textContent=minute  
       }
     }, 20);
    
