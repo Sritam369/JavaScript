@@ -26,11 +26,11 @@ let product4=document.getElementsByClassName("electronics")
 let right=document.getElementById("right");
 p2.addEventListener('click',function(e){
   p2.style.backgroundColor="blue";
-  right.classList.remove="women"
+  
   //product[0].style.display="none" --->we can also write like this
-  // [...product].forEach((e,i)=>{ 
-  //    e.style.display="none";
-  // })
+  [...product].forEach((e,i)=>{ 
+     e.style.display="none";
+  })
   
   
 
